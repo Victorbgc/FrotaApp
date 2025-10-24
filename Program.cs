@@ -26,7 +26,11 @@ namespace FrotaApp
                         Console.Write("Placa: ");
                         string placa = Console.ReadLine();
                         Console.Write("Consumo (km/l): ");
-                        double consumo = double.Parse(Console.ReadLine());
+                        if (!double.TryParse(Console.ReadLine(), out double consumo) || consumo <= 0)
+                        {
+                            Console.WriteLine("Valor inválido, operação cancelada.");
+                            continue;
+                        }
                         frota.AdicionarVeiculo(new Carro(placa, consumo));
                         Console.WriteLine("Carro adicionado.");
                     }
@@ -46,9 +50,15 @@ namespace FrotaApp
                     else if (opc == "4")
                     {
                         Console.Write("Km a rodar para cada veículo: ");
-                        double km = double.Parse(Console.ReadLine());
-                        frota.RodarTodos(km);
-                        Console.WriteLine("Atualizado.");
+                        if (double.TryParse(Console.ReadLine(), out double km) && km >= 0)
+                        {
+                            frota.RodarTodos(km);
+                            Console.WriteLine("Todos os veículos rodaram " + km + " km.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Entrada inválida! Digite um número positivo.");
+                        }
                     }
                     else if (opc == "5")
                     {

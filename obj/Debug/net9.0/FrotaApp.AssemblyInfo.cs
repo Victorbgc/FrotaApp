@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrotaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b5dc32bceb01413a2373655072daff3ea7a2c8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrotaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrotaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

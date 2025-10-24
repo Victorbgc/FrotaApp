@@ -12,3 +12,4 @@ C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\refint\FrotaApp.dll
 C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.pdb
 C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.genruntimeconfig.cache
 C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\ref\FrotaApp.dll
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.sourcelink.json
