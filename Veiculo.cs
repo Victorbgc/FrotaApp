@@ -68,5 +68,10 @@ namespace FrotaApp
             return $"{GetType().Name} - Placa: {Placa}, Km: {Odometro}, Ult. manut.: {UltimaManutencao}";
         }
 
+        public void ManutencaoRealizada()
+        {
+            UltimaManutencao = Odometro;
+        }
+
     }
 }

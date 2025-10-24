@@ -15,6 +15,7 @@ namespace FrotaApp
                 Console.WriteLine("3 - Listar Veículos");
                 Console.WriteLine("4 - Rodar todos X km");
                 Console.WriteLine("5 - Relatório de manutenção");
+                Console.WriteLine("6 - Registrar manutenção");
                 Console.WriteLine("0 - Sair");
                 Console.Write("Escolha: ");
                 var opc = Console.ReadLine();
@@ -63,6 +64,21 @@ namespace FrotaApp
                     else if (opc == "5")
                     {
                         frota.RelatorioManutencao();
+                    }
+                    else if (opc == "6")
+                    {
+                        Console.Write("Digite a placa do veículo para registrar manutenção: ");
+                        string placa = Console.ReadLine()?.ToUpper();
+                        var veiculo = frota.ListarVeiculos().FirstOrDefault(v => v.Placa == placa);
+                        if (veiculo != null)
+                        {
+                            veiculo.ManutencaoRealizada();
+                            Console.WriteLine("Manutenção registrada para " + placa);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Veículo não encontrado.");
+                        }
                     }
                     else if (opc == "0")
                     {
