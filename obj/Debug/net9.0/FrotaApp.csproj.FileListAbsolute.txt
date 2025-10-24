@@ -1,0 +1,14 @@
+C:\Users\victo\Sharp\proj1\FrotaApp\bin\Debug\net9.0\FrotaApp.exe
+C:\Users\victo\Sharp\proj1\FrotaApp\bin\Debug\net9.0\FrotaApp.deps.json
+C:\Users\victo\Sharp\proj1\FrotaApp\bin\Debug\net9.0\FrotaApp.runtimeconfig.json
+C:\Users\victo\Sharp\proj1\FrotaApp\bin\Debug\net9.0\FrotaApp.dll
+C:\Users\victo\Sharp\proj1\FrotaApp\bin\Debug\net9.0\FrotaApp.pdb
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.AssemblyInfoInputs.cache
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.AssemblyInfo.cs
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.csproj.CoreCompileInputs.cache
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.dll
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\refint\FrotaApp.dll
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.pdb
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\FrotaApp.genruntimeconfig.cache
+C:\Users\victo\Sharp\proj1\FrotaApp\obj\Debug\net9.0\ref\FrotaApp.dll
